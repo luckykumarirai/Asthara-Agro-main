@@ -263,7 +263,7 @@ export default function Register(props,{ navigation }) {
                     <TextInput style={styles.input} mode="outlined" label="Govt ID Number" value={values.idNumber} onChangeText={handleChange('idNumber')}/>
                     <View style={{flexDirection: 'row'}}>
                         <input type="file" name="file" placeholder="Image"
-                        style={{flex: 3, border: '8px solid gray', marginLeft: '2%', padding: '1%', borderRadius: '1px'}}
+                        style={{flex: 3, border: '1px solid gray', marginLeft: '2%', padding: '1%', borderRadius: '1px'}}
                         onChange={getFiles}
                         />
                         <Button mode="contained" style={styles.button} onPress={()=>ImageSubmitForm()}>Upload Image</Button>
